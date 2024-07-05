@@ -1,7 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Academic Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .main-content {
+            padding: 20px;
+            background: #fff;
+        }
+        .timestamp {
+            color: #777;
+            font-size: 0.9em;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header>
+        <div class="container">
+            <h1>My Academic Page</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Research</a></li>
+                <li><a href="#">Publications</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container main-content">
+        <h2>Welcome to My Academic Page</h2>
+        <p>This is a brief introduction about myself. I am a second-year PhD student in the Mathematics Department at Nanjing University. My research interests include Ricci flow techniques, low-dimensional topology, and Perelman's proof of the Geometrization Conjecture.</p>
+        <h3>Recent Work</h3>
+        <div>
+            <h4>My Academic Work</h4>
+            <p class="timestamp">Updated: July 5, 2024</p>
+            <p>You can download my recent academic work <a href="path_to_your_file.pdf" download>here</a>.</p>
+        </div>
+    </div>
+    <footer>
+        <p>My Academic Page &copy; 2024</p>
+    </footer>
 </body>
 </html>
